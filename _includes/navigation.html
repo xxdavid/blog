@@ -1,0 +1,68 @@
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="{{ site.url }}">Domů</a></li>
+		<li>
+			<a href="#">O mně</a>
+			<ul class="dl-submenu">
+				<li>
+					<h4>{{ site.owner.name }}</h4>
+					<p>{{ site.owner.bio }}</p>
+				</li>
+				{% if site.about_page %}<li>
+					<a href="{{ site.url }}/about/">Learn More</a>
+				</li>{% endif %}
+				{% if site.owner.email %}<li>
+					<a href="mailto:{{ site.owner.email }}"><i class="fa fa-envelope"></i> E-mail</a>
+				</li>{% endif %}
+				{% if site.owner.google_plus %}<li>
+					<a href="{{ site.owner.google_plus }}"><i class="fa fa-google-plus"></i> Google+</a>
+				</li>{% endif %}
+				{% if site.owner.twitter %}<li>
+					<a href="http://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+				</li>{% endif %}
+				{% if site.owner.facebook %}<li>
+					<a href="http://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-facebook"></i> Facebook</a>
+				</li>{% endif %}
+				{% if site.owner.linkedin %}<li>
+					<a href="http://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
+				</li>{% endif %}
+				{% if site.owner.github %}<li>
+					<a href="http://github.com/{{ site.owner.github }}"><i class="fa fa-github"></i> GitHub</a>
+				</li>{% endif %}
+				{% if site.owner.stackexchange %}<li>
+					<a href="{{ site.owner.stackexchange }}"><i class="fa fa-stack-exchange"></i> Stackexchange</a>
+				</li>{% endif %}
+				{% if site.owner.instagram %}<li>
+					<a href="http://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-instagram"></i> Instagram</a>
+				</li>{% endif %}
+				{% if site.owner.flickr %}<li>
+					<a href="http://www.flickr.com/photos/{{ site.owner.flickr }}"><i class="fa fa-flickr"></i> Flickr</a>
+				</li>{% endif %}
+				{% if site.owner.tumblr %}<li>
+					<a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-tumblr"></i> Tumblr</a>
+				</li>{% endif %}
+				{% if site.owner.lastfm %}<li>
+					<a href="http://last.fm/user/{{ site.owner.lastfm }}"><i class="brandico-lastfm-rect"></i> Last.fm</a>
+				</li>{% endif %}
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Příspěvky</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url }}/posts/">Všechny příspěvky</a></li>
+				<li><a href="{{ site.url }}/tags/">Všechny tagy</a></li>
+			</ul>
+		</li>
+		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+		<li>
+			<a href="#">Blogy přátel</a>
+			<ul class="dl-submenu">
+				<li><a href="http://fotoapharat.blogspot.cz/">Vítek Burian</a></li>
+				<li><a href="http://blog.balazik.cz/">Štěpán Balážik</a></li>
+				<li><a href="http://blog.fitli.cz/">Fitli</a></li>
+				<li><a href="http://vojtechvasak.blog.idnes.cz/">Vojta Vašák</a></li>
+			</ul>
+		</li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
