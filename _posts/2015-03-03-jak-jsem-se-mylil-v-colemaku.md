@@ -8,7 +8,7 @@ image:
 comments: yes
 share: yes
 ---
-Přesně před měsícem jsem se rozhodl, že změním své rozložení klávesnice na [Colemak](http://colemak.com).
+Přesně před rokem jsem se rozhodl, že změním své rozložení klávesnice na [Colemak](http://colemak.com).
 
 Do té doby jsem používal docela dobré [IMega Keyboard](http://www.imega.cz/keyboard/). Je založené na QWERTY a obsahuje české znaky + různé typografické znaky (pomlčka, dlouhá pomlčka, výpustka, české uvozovky, times a plno dalších). Relativně mi to vyhovovalo.
 
