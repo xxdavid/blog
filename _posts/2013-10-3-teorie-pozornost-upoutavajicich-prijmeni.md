@@ -13,7 +13,7 @@ share: true
 _Dobrý den, jmenuji se David Pavlík a vítám Vás na svém dalším nepravidelném blogpostu.
 Před pár hodinami jsem se nacházel ve škole, ale i tam jsem přemýšlel nad životně důležitými problémy._
 
-Už dlouho jsem měl v hlavě jednu myšlenku, ale až během hodiny základů společenských věd jsem si všechno spojil a otevřeli se mi oči. Výsledkem je moje _Teorie pozornost upoutávajících příjmení_. Ve skutečnosti je natolik **složitá**, že by ji Váš omezený mozek absolutně nemohl pochopit. Pokusím se ji ale **zjednodušit**, abyste ji i Vy, nedokonalí lidé, mohli pochopit.
+Už dlouho jsem měl v hlavě jednu myšlenku, ale až během hodiny základů společenských věd jsem si všechno spojil a otevřely se mi oči. Výsledkem je moje _Teorie pozornost upoutávajících příjmení_. Ve skutečnosti je natolik **složitá**, že by ji Váš omezený mozek absolutně nemohl pochopit. Pokusím se ji ale **zjednodušit**, abyste ji i Vy, nedokonalí lidé, mohli pochopit.
 Podle mé teorie existují **tři skupiny příjmení**:
 
 1.  pozornost upoutávající příjmení
