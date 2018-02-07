@@ -15,15 +15,15 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:      xxdavid8  
   github:     xxdavid
-  facebook:       
   stackexchange:  
   linkedin:       
   instagram:     xxdavid   
   flickr:         
   tumblr:   
+  facebook: david.pavlik.378
   lastfm:     xxdavid8
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:   http://google.com/+DavidPavlik
+  google_plus:
 
 # Background image to be tiled on all pages
 background: 
