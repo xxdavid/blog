@@ -4,7 +4,7 @@ disqus_shortname: davidpavlik
 reading_time:     true
 words_per_minute: 130
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://blog.dpavlik.cz
+url:              https://blog.dpavlik.cz
 
 # Owner/author information
 owner:
